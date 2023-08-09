@@ -71,6 +71,7 @@ void delete()
   else if (front == max)
   {
     printf("\n\tAll the elements are deleted");
+    rear=-1;
   }
   else
   {
