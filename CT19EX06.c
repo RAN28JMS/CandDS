@@ -38,13 +38,13 @@ void push() {
     printf("\n\t Stack is full. No element can be inserted.\n");
     return;
   }
-
+  else {
   printf("\n\t Enter the element to be inserted: ");
   scanf("%d", &ele);
 
   ++top;
   stack[top] = ele;
-
+  }
   printf("\n\t Push complete.\n");
 }
 
@@ -53,11 +53,11 @@ void pop() {
     printf("\n\t No element in stack.\n");
     return;
   }
-
+  else {
   item = stack[top];
   printf("\n\t The deleted element from stack is %d\n", item);
   --top;
-
+  }
   printf("\n\t Pop completed.\n");
 }
 
