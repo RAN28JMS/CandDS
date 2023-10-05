@@ -3,9 +3,9 @@
 int power(int x, int y) {
   int z = 1;
   for (int i = 0; i < y; i++) {
-    x *= x;
+    z *= x;
   }
-  return x;
+  return z;
 }
 
 int main() {
